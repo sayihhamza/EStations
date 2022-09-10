@@ -59,8 +59,6 @@ export default function App() {
 
           <MapboxGL.Camera centerCoordinate={currentPosition} zoomLevel={15} />
 
-          <MapboxGL.PointAnnotation coordinate={[-4.9889563, 34.0121715]} />
-
           {Stations?.map((station, index) => (
             <MapboxGL.PointAnnotation
               id={station.address}
