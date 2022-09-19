@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, {useState} from 'react';
 import Realm from 'realm';
 import {useApp} from '@realm/react';
@@ -8,7 +9,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 Icon.loadFont(); // load FontAwesome font
 
-export function WelcomeView({navigation, route}) {
+export function Welcome({navigation, route}) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 

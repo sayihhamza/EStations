@@ -27,7 +27,9 @@ const styles = StyleSheet.create({
 });
 
 const Map = () => {
-  const [currentPosition, setCurrentPosition] = useState([0, 0]);
+  const [currentPosition, setCurrentPosition] = useState([
+    -4.9889563, 34.0121715,
+  ]);
 
   useEffect(() => {
     GetLocation.getCurrentPosition({
