@@ -60,7 +60,7 @@ export function Welcome({navigation, route}) {
           rightIcon={
             <Icon
               name={passwordHidden ? 'eye-slash' : 'eye'}
-              size={12}
+              size={20}
               color="black"
               onPress={() => setPasswordHidden(!passwordHidden)}
             />
