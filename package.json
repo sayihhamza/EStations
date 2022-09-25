@@ -13,16 +13,18 @@
     "@react-native-mapbox-gl/maps": "^8.6.0-beta.0",
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/native-stack": "^6.9.0",
+    "@realm/react": "^0.3.2",
+    "@timwangdev/react-native-geocoder": "^1.0.0-alpha.7",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "react-native-eject": "^0.1.2",
+    "react-native-elements": "^3.3.2",
     "react-native-get-location": "^2.2.1",
+    "react-native-paper": "^4.12.4",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.10.1",
-    "realm": "^10.20.0",
-    "@realm/react": "^0.3.2",
-    "react-native-elements": "^3.3.2",
-    "react-native-vector-icons": "^8.1.0"
+    "react-native-vector-icons": "^8.1.0",
+    "realm": "^10.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

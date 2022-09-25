@@ -1,9 +1,11 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable prettier/prettier */
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, View} from 'react-native';
 import MapboxGL from '@react-native-mapbox-gl/maps';
 import GetLocation from 'react-native-get-location';
 import Stations from './Stations.js';
+import {Searchbar, Button} from 'react-native-paper';
 
 MapboxGL.setAccessToken(
   'pk.eyJ1Ijoic2F5aWhoYW16YSIsImEiOiJjbDZ3azdpNmUwankwM2RxbDc1b3Y0bGppIn0.-VJisKK9RbocLKMq52oC6Q',
